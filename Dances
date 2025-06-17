@@ -1,8 +1,8 @@
--- gObl00x Notification
+-- trickyymn Notification
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "gOb scripts";
+	Title = "trick scripts";
 	Text = "LOL Time to Exploit!";
-	Icon = "rbxthumb://type=Asset&id=126389658690593&w=150&h=150"})
+	Icon = "rbxthumb://type=Asset&id=94758098500704&w=150&h=150"})
 Duration = 15;
 
 -- Dance 1 (dj funks dance lol)
