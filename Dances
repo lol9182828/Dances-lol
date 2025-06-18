@@ -5,7 +5,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=94758098500704&w=150&h=150"})
 Duration = 15;
 
--- Dance 1 (dj funks dance lol)
+-- Dance 1 (BAILE DA ZN)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
@@ -34,7 +34,7 @@ tool.Equipped:Connect(function()
              
         writefile("The Hero.mp3", game:HttpGet("https://github.com/lol9182828/XDDDD/raw/refs/heads/main/BRAZILIAN%20DANCE%20DA%20ZNNNNNN%F0%9F%A4%91%F0%9F%94%A5%F0%9F%94%A5%F0%9F%98%B9.mp3"))     
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("The Hero.mp3")
+        sound.SoundId = getcustomasset("BRAZILIAN DANCE DA ZNNNNNN🤑🔥🔥😹.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -82,7 +82,7 @@ tool.Equipped:Connect(function()
              
         writefile("The Hero.mp3", game:HttpGet("https://github.com/lol9182828/Woozynate/raw/refs/heads/main/GO%20DO%20IT%20%23jerseyclub%20%20-%20@ziahfyah%20@-Sj-.mp3"))     
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("The Hero.mp3")
+        sound.SoundId = getcustomasset("GO DO IT #jerseyclub  - @ziahfyah @-Sj-.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
