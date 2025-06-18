@@ -32,7 +32,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
              
-        writefile("The Hero.mp3", game:HttpGet("https://github.com/lol9182828/XDDDD/raw/refs/heads/main/BRAZILIAN%20DANCE%20DA%20ZNNNNNN%F0%9F%A4%91%F0%9F%94%A5%F0%9F%94%A5%F0%9F%98%B9.mp3"))     
+        writefile("BRAZILIAN DANCE DA ZNNNNNN🤑🔥🔥😹.mp3", game:HttpGet("https://github.com/lol9182828/XDDDD/raw/refs/heads/main/BRAZILIAN%20DANCE%20DA%20ZNNNNNN%F0%9F%A4%91%F0%9F%94%A5%F0%9F%94%A5%F0%9F%98%B9.mp3"))     
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("BRAZILIAN DANCE DA ZNNNNNN🤑🔥🔥😹.mp3")
         sound.Volume = 2
@@ -80,7 +80,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
              
-        writefile("The Hero.mp3", game:HttpGet("https://github.com/lol9182828/Woozynate/raw/refs/heads/main/GO%20DO%20IT%20%23jerseyclub%20%20-%20@ziahfyah%20@-Sj-.mp3"))     
+        writefile("GO DO IT #jerseyclub  - @ziahfyah @-Sj-.mp3", game:HttpGet("https://github.com/lol9182828/Woozynate/raw/refs/heads/main/GO%20DO%20IT%20%23jerseyclub%20%20-%20@ziahfyah%20@-Sj-.mp3"))     
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("GO DO IT #jerseyclub  - @ziahfyah @-Sj-.mp3")
         sound.Volume = 2
