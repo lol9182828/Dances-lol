@@ -56,7 +56,7 @@ end)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
--- Dance 1 (Go Do It)
+-- Dance 2 (Go Do It)
 -- Create the tool
 local tool = Instance.new("Tool")
 tool.Name = "Go Do It"
