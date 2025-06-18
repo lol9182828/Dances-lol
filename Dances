@@ -32,7 +32,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
              
-        writefile("The Hero.mp3", game:HttpGet("https://github.com/lol9182828/Lmao/raw/refs/heads/main/callate%20la%20puta%20boca%F0%9F%91%80.mp3.mp4"))     
+        writefile("The Hero.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/ssstik.io_@obinwangwu_1750229990797.mp4"))     
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("The Hero.mp3")
         sound.Volume = 2
