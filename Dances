@@ -53,10 +53,11 @@ tool.Unequipped:Connect(function()
     end
     print("Dance 1 and music stopped")
 end)
+
+-- Dance 2 (GO DO IT)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
--- Dance 2 (GO DO IT)
 -- Create the tool
 local tool = Instance.new("Tool")
 tool.Name = "GO DO IT"
@@ -101,7 +102,11 @@ tool.Unequipped:Connect(function()
     end
     print("Dance 1 and music stopped")
 end)
--- Dance 3 (SUNSHINEE)
+
+-- Dance 3 (Sunshine)
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
 -- Create the tool
 local tool = Instance.new("Tool")
 tool.Name = "SUNSHINE :)"
@@ -146,10 +151,10 @@ tool.Unequipped:Connect(function()
     end
     print("Dance 1 and music stopped")
 end)
+-- Dance 4 (Rin XD)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
--- Dance 4 (Rin XD)
 -- Create the tool
 local tool = Instance.new("Tool")
 tool.Name = "Rin XD"
@@ -194,11 +199,10 @@ tool.Unequipped:Connect(function()
     end
     print("Dance 1 and music stopped")
 end)
-
+-- Dance 5 (Hug)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
--- Dance 5 (Hug)
 -- Create the tool
 local tool = Instance.new("Tool")
 tool.Name = "Hug"
@@ -243,11 +247,10 @@ tool.Unequipped:Connect(function()
     end
     print("Dance 1 and music stopped")
 end)
-
+-- Dance 6 (Doughbag)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
--- Dance 6 (Doughbag)
 -- Create the tool
 local tool = Instance.new("Tool")
 tool.Name = "Doughbag"
@@ -292,12 +295,10 @@ tool.Unequipped:Connect(function()
     end
     print("Dance 1 and music stopped")
 end)
-
-
+-- Dance 7 (Boppin)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
--- Dance 7 (Boppin)
 -- Create the tool
 local tool = Instance.new("Tool")
 tool.Name = "Boppin"
@@ -342,11 +343,10 @@ tool.Unequipped:Connect(function()
     end
     print("Dance 1 and music stopped")
 end)
-
+-- Dance 8 (Nokotan madrazos)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
--- Dance 8 (Nokotan madrazos)
 -- Create the tool
 local tool = Instance.new("Tool")
 tool.Name = "Nokotan madrazos"
