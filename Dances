@@ -1,4 +1,4 @@
-trickyymn AND GOBL00X Notification
+--trickyymn AND GOBL00X Notification
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "trick AND G0B scripts";
 	Text = "LOL Time to Exploit!";
