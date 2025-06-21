@@ -140,7 +140,6 @@ tool.Equipped:Connect(function()
     end
 end)
 
--- Dance 4 (Rin)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
@@ -189,7 +188,6 @@ tool.Unequipped:Connect(function()
     print("Dance 1 and music stopped")
 end)
 
--- Dance 5 (Hug)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
@@ -238,7 +236,6 @@ tool.Unequipped:Connect(function()
     print("Dance 1 and music stopped")
 end)
 
--- Dance 6 (You are Doughbag)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
@@ -287,7 +284,6 @@ tool.Unequipped:Connect(function()
     print("Dance 1 and music stopped")
 end)
 
--- Dance 7 (Boppin)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
@@ -336,7 +332,6 @@ tool.Unequipped:Connect(function()
     print("Dance 1 and music stopped")
 end)
 
--- Dance 8 (Nokotan)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
@@ -385,7 +380,6 @@ tool.Unequipped:Connect(function()
     print("Dance 1 and music stopped")
 end)
 
--- Dance 9 (Teto Territory)
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
