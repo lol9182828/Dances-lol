@@ -1,50 +1,4 @@
-local player = game.Players.LocalPlayer
-local backpack = player:WaitForChild("Backpack")
-
--- Create the tool
-local tool = Instance.new("Tool")
-tool.Name = "Go Do It"
-tool.RequiresHandle = false
-tool.Parent = backpack
-
--- Load Animator if not already loaded
-if not getgenv()["Animator"] then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
-    end
-
-local Anim = nil
-local sound = nil
-
-tool.Equipped:Connect(function()
-    local character = player.Character
-    if character then
-        Anim = Animator.new(character, 81312689882073)
-        Anim:Play()
-        Anim.Stopped:Connect(function()
-            Anim:Play()
-        end)
-             
-        writefile("The Hero.mp3", game:HttpGet("https://github.com/lol9182828/Woozynate/raw/refs/heads/main/GO%20DO%20IT%20%23jerseyclub%20%20-%20@ziahfyah%20@-Sj-.mp3"))     
-        sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("The Hero.mp3")
-        sound.Volume = 2
-        sound.Looped = true
-        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-        sound:Play()
-    end
-end)
-
-tool.Unequipped:Connect(function()
-    if Anim then
-        Anim:Stop()
-        Anim:Destroy()
-    end
-    if sound then
-        sound:Stop()
-        sound:Destroy()
-    end
-    print("Dance 1 and music stopped")
-end)-- trickyymn AND GOBL00X Notification
+trickyymn AND GOBL00X Notification
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "trick AND G0B scripts";
 	Text = "LOL Time to Exploit!";
@@ -419,6 +373,56 @@ tool.Equipped:Connect(function()
         writefile("Nokotan madrazos.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/nokotan.mp3"))     
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("Nokotan madrazos.mp3)
+        sound.Volume = 2
+        sound.Looped = true
+        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        sound:Play()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Dance 1 and music stopped")
+end)
+
+
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Dance 8 (Teto territory)
+-- Create the tool
+local tool = Instance.new("Tool")
+tool.Name = "Teto territory"
+tool.RequiresHandle = false
+tool.Parent = backpack
+
+-- Load Animator if not already loaded
+if not getgenv()["Animator"] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    end
+
+local Anim = nil
+local sound = nil
+
+tool.Equipped:Connect(function()
+    local character = player.Character
+    if character then
+        Anim = Animator.new(character, 98396609763082)
+        Anim:Play()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
+        end)
+             
+        writefile("Teto.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/21%20de%20junio%20de%202025.mp3"))     
+        sound = Instance.new("Sound")
+        sound.SoundId = getcustomasset("Teto.mp3)
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
