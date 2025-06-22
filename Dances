@@ -5,16 +5,17 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=94758098500704&w=150&h=150"})
 Duration = 15;
 
--- Dance 1 (BAILE DA ZN)
+-- *Raulipues*
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "BAILE DA ZN"
+tool.Name = "Raulipues👀"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("Raulipues👀.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Raulipues.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -31,10 +32,8 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("BRAZILIAN DANCE DA ZNNNNNN🤑🔥🔥😹.mp3", game:HttpGet("https://github.com/lol9182828/XDDDD/raw/refs/heads/main/BRAZILIAN%20DANCE%20DA%20ZNNNNNN%F0%9F%A4%91%F0%9F%94%A5%F0%9F%94%A5%F0%9F%98%B9.mp3"))     
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("BRAZILIAN DANCE DA ZNNNNNN🤑🔥🔥😹.mp3")
+        sound.SoundId = getcustomasset("Raulipues👀.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -51,19 +50,68 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
+    print("Hello World")
 end)
 
--- Dance 2 (GO DO IT)
+-- *Danza Da Zn👀*
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "GO DO IT"
+tool.Name = "Danza Da Zn👀"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("Danza Da Zn👀.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/TikSave.io_7518221615759478072.mp3"))
+-- Load Animator if not already loaded
+if not getgenv()["Animator"] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    end
+
+local Anim = nil
+local sound = nil
+
+tool.Equipped:Connect(function()
+    local character = player.Character
+    if character then
+        Anim = Animator.new(character, 93585895457618)
+        Anim:Play()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
+        end)
+        sound = Instance.new("Sound")
+        sound.SoundId = getcustomasset("Danza Da Zn👀.mp3")
+        sound.Volume = 2
+        sound.Looped = true
+        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        sound:Play()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
+end)
+
+-- *Go Do It*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
+local tool = Instance.new("Tool")
+tool.Name = "Go Do It"
+tool.RequiresHandle = false
+tool.Parent = backpack
+
+        writefile("Go Do It.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/GO%20DO%20IT%20%23jerseyclub%20%20-%20@ziahfyah%20@-Sj-.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -80,10 +128,8 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("GO DO IT #jerseyclub  - @ziahfyah @-Sj-.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/GO%20DO%20IT%20%23jerseyclub%20%20-%20@ziahfyah%20@-Sj-.mp3"))     
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("GO DO IT #jerseyclub  - @ziahfyah @-Sj-.mp3")
+        sound.SoundId = getcustomasset("Go Do It.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -100,8 +146,12 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
+    print("Hello World")
 end)
+
+-- *Rin*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
@@ -109,6 +159,7 @@ tool.Name = "Rin"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("Rin.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/that%20one%20rin%20edit%20whatever%20that%20is.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -125,8 +176,6 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("Rin.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/that%20one%20rin%20edit%20whatever%20that%20is.mp3"))     
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("Rin.mp3")
         sound.Volume = 2
@@ -145,16 +194,20 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
-end)local player = game.Players.LocalPlayer
+    print("Hello World")
+end)
+
+-- *Boppin*
+local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "boppin"
+tool.Name = "Boppin"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("Boppin.mp3", game:HttpGet("https://github.com/gObl00x/Epik-Musics/raw/refs/heads/main/Boppin.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -171,10 +224,8 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("Boppin.mp3", game:HttpGet("https://github.com/gObl00x/Epik-Musics/raw/refs/heads/main/Boppin.mp3"))     
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("boppin.mp3")
+        sound.SoundId = getcustomasset("Boppin.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -191,16 +242,20 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
-end)local player = game.Players.LocalPlayer
+    print("Hello World")
+end)
+
+-- *You Are Doughbag*
+local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Doughbag"
+tool.Name = "You Are Doughbag"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("You Are Doughbag.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/you%20are%20doughbag.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -217,10 +272,8 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("Doughbag.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/you%20are%20doughbag.mp3"))     
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("Doughbag.mp3")
+        sound.SoundId = getcustomasset("You Are Doughbag.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -237,8 +290,11 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
-end)local player = game.Players.LocalPlayer
+    print("Hello World")
+end)
+
+-- *Teto*
+local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
@@ -247,6 +303,7 @@ tool.Name = "Teto"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("Teto.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/21%20de%20junio%20de%202025.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -263,11 +320,9 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("Teto.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/21%20de%20junio%20de%202025.mp3"))     
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("Teto.mp3")
-        sound.Volume = 2
+        sound.Volume = 1
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
         sound:Play()
@@ -283,8 +338,11 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
-end)local player = game.Players.LocalPlayer
+    print("Hello World")
+end)
+
+-- *Nokotan*
+local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
@@ -293,6 +351,7 @@ tool.Name = "Nokotan"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("Nokotan.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/nokotan.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -309,10 +368,8 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("Nokotan.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/nokotan.mp3"))     
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("nokotan.mp3")
+        sound.SoundId = getcustomasset("Nokotan.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -329,8 +386,11 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
-end)local player = game.Players.LocalPlayer
+    print("Hello World")
+end)
+
+-- *Hug*
+local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
@@ -339,6 +399,7 @@ tool.Name = "Hug"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("Hug.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Some%20Hand%20grab%20Sound%20effect.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -355,8 +416,6 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("Hug.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Some%20Hand%20grab%20Sound%20effect.mp3"))     
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("Hug.mp3")
         sound.Volume = 2
@@ -375,16 +434,20 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
-end)local player = game.Players.LocalPlayer
+    print("Hello World")
+end)
+
+-- *Kill Me Baby*
+local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Kill me baby"
+tool.Name = "Kill Me Baby"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
+        writefile("Kill Me Baby.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Something%20Evil%20Will%20Happen%20OST%20-%20Kill%20Me%20Baby%20Remix%20(Emote)%20By%20Sorakai%20(@LoganDaBro).mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -401,10 +464,8 @@ tool.Equipped:Connect(function()
         Anim.Stopped:Connect(function()
             Anim:Play()
         end)
-             
-        writefile("Kill me baby.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Something%20Evil%20Will%20Happen%20OST%20-%20Kill%20Me%20Baby%20Remix%20(Emote)%20By%20Sorakai%20(@LoganDaBro).mp3"))     
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("Kill me baby.mp3")
+        sound.SoundId = getcustomasset("Kill Me Baby.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -421,5 +482,5 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
-    print("Dance 1 and music stopped")
+    print("Hello World")
 end)
