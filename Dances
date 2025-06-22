@@ -5,17 +5,17 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=94758098500704&w=150&h=150"})
 Duration = 15;
 
--- *Raulipues*
+-- *Danza Brasilera 🔥🇧🇷*
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Raulipues👀"
+tool.Name = "Danza Brasilera 🔥🇧🇷"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
-        writefile("Raulipues👀.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Raulipues.mp3"))
+        writefile("Danza Brasilera🔥🇧🇷.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/L1XXY%20DANCE%20BRAZILIAN%20KKKKKK%F0%9F%98%B9.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -23,7 +23,6 @@ if not getgenv()["Animator"] then
 
 local Anim = nil
 local sound = nil
-
 tool.Equipped:Connect(function()
     local character = player.Character
     if character then
@@ -33,7 +32,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("Raulipues👀.mp3")
+        sound.SoundId = getcustomasset("Danza Brasilera🔥🇧🇷.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
