@@ -494,7 +494,7 @@ tool.Name = "L1xxy Danza Brazilian Kkkkkk"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
-        writefile("L1xxy Danza Brazilian Kkkkkk.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/love%20hina%20beat%20kkkkkk.mp3"))
+        writefile("L1xxy Danza Brazilian Kkkkkk.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/PASSA%20O%20DIA%20PASSA%20NOITE%20QUANTO%20TEMPO%20PASSA%20-%20TIK%20TOK%20(Speed%20upRerverb!).mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -561,6 +561,54 @@ tool.Equipped:Connect(function()
         end)
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("Get Down.mp3")
+        sound.Volume = 2
+        sound.Looped = true
+        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        sound:Play()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
+end)
+
+-- *Put me back in 12 grade 🗣️❗🔥*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
+local tool = Instance.new("Tool")
+tool.Name = "Put me back in 12 grade 🗣️❗🔥"
+tool.RequiresHandle = false
+tool.Parent = backpack
+
+        writefile("Put me back in 12 grade 🗣️❗🔥.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/put%20me%20back%20in%2012th%20grade.mp3"))
+-- Load Animator if not already loaded
+if not getgenv()["Animator"] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    end
+
+local Anim = nil
+local sound = nil
+
+tool.Equipped:Connect(function()
+    local character = player.Character
+    if character then
+        Anim = Animator.new(character, 77996021001412)
+        Anim:Play()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
+        end)
+        sound = Instance.new("Sound")
+        sound.SoundId = getcustomasset("Put me back in 12 grade 🗣️❗🔥.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
