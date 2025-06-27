@@ -1,7 +1,7 @@
---trickyymn AND GOBL00X Notification
+--trickyymn Notification
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "trick AND G0B scripts";
-	Text = "LOL Time to Exploit!";
+	Title = "trickyymn script";
+	Text = "LOL Time to use animations cool";
 	Icon = "rbxthumb://type=Asset&id=94758098500704&w=150&h=150"})
 Duration = 15;
 
