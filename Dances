@@ -5,13 +5,13 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=94758098500704&w=150&h=150"})
 Duration = 15;
 
--- *Danza Brasilera 🔥🔥🔥🔥🇧🇷🇧🇷*
+-- *Danza Brasilera *
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Danza Brasilera 🇧🇷🔥❗·"
+tool.Name = "Danza Brasilera ·"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
@@ -58,7 +58,7 @@ local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Danza Da Zn 👀👀👀🔥🇧🇷"
+tool.Name = "Danza Da Zn "
 tool.RequiresHandle = false
 tool.Parent = backpack
 
@@ -1162,7 +1162,7 @@ local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Dih (Rare💔🥀🥀😭💀)"
+tool.Name = "Dih (Rare)"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
@@ -1258,7 +1258,7 @@ local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Who can it be now🗣️❗🔥"
+tool.Name = "Who can it be now"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
@@ -1281,6 +1281,54 @@ tool.Equipped:Connect(function()
         end)
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("Who can it be now.mp3")
+        sound.Volume = 2
+        sound.Looped = true
+        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        sound:Play()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
+end)
+
+-- *remove arm*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
+local tool = Instance.new("Tool")
+tool.Name = "remove arm"
+tool.RequiresHandle = false
+tool.Parent = backpack
+
+        writefile("remove arm.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/for%20gore.mp3"))
+-- Load Animator if not already loaded
+if not getgenv()["Animator"] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    end
+
+local Anim = nil
+local sound = nil
+
+tool.Equipped:Connect(function()
+    local character = player.Character
+    if character then
+        Anim = Animator.new(character, 17086423985)
+        Anim:Play()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
+        end)
+        sound = Instance.new("Sound")
+        sound.SoundId = getcustomasset("remove arm.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
