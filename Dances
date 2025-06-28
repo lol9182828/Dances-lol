@@ -5,17 +5,17 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=94758098500704&w=150&h=150"})
 Duration = 15;
 
--- *Danza Brasilera 🔥🇧🇷*
+-- *Danza Brasilera 🔥🔥🔥🔥🇧🇷🇧🇷*
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Danza Brasilera 🔥🇧🇷"
+tool.Name = "Danza Brasilera 🇧🇷🔥❗·"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
-        writefile("Danza Brasilera🔥🇧🇷.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/L1XXY%20DANCE%20BRAZILIAN%20KKKKKK%F0%9F%98%B9.mp3"))
+        writefile("Danza BrasileraðŸ”¥ðŸ‡§ðŸ‡·.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/L1XXY%20DANCE%20BRAZILIAN%20KKKKKK%F0%9F%98%B9.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -32,7 +32,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("Danza Brasilera🔥🇧🇷.mp3")
+        sound.SoundId = getcustomasset("Danza BrasileraðŸ”¥ðŸ‡§ðŸ‡·.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -52,17 +52,17 @@ tool.Unequipped:Connect(function()
     print("Hello World")
 end)
 
--- *Danza Da Zn👀*
+-- *Danza Da ZnðŸ‘€*
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Danza Da Zn👀"
+tool.Name = "Danza Da Zn 👀👀👀🔥🇧🇷"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
-        writefile("Danza Da Zn👀.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/TikSave.io_7518221615759478072.mp3"))
+        writefile("Danza Da ZnðŸ‘€.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/TikSave.io_7518221615759478072.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -80,7 +80,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("Danza Da Zn👀.mp3")
+        sound.SoundId = getcustomasset("Danza Da ZnðŸ‘€.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -580,17 +580,17 @@ tool.Unequipped:Connect(function()
     print("Hello World")
 end)
 
--- *Put me back in 12 grade 🗣️❗🔥*
+-- *Put me back in 12 grade ðŸ—£ï¸â—ðŸ”¥*
 local player = game.Players.LocalPlayer
 local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Put me back in 12 grade 🗣️❗🔥"
+tool.Name = "Put me back in 12 grade ðŸ—£ï¸â—ðŸ”¥"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
-        writefile("Put me back in 12 grade 🗣️❗🔥.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/put%20me%20back%20in%2012th%20grade.mp3"))
+        writefile("Put me back in 12 grade ðŸ—£ï¸â—ðŸ”¥.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/put%20me%20back%20in%2012th%20grade.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
@@ -608,7 +608,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("Put me back in 12 grade 🗣️❗🔥.mp3")
+        sound.SoundId = getcustomasset("Put me back in 12 grade ðŸ—£ï¸â—ðŸ”¥.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -1162,7 +1162,7 @@ local backpack = player:WaitForChild("Backpack")
 
 -- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "Dih (Rare😭💀💔🥀)"
+tool.Name = "Dih (Rare💔🥀🥀😭💀)"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
@@ -1233,6 +1233,54 @@ tool.Equipped:Connect(function()
         end)
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("Dance.mp3")
+        sound.Volume = 2
+        sound.Looped = true
+        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        sound:Play()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
+end)
+
+-- *Who can it be now*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
+local tool = Instance.new("Tool")
+tool.Name = "Who can it be now🗣️❗🔥"
+tool.RequiresHandle = false
+tool.Parent = backpack
+
+        writefile("Who can it be now.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Who%20can%20it%20be%20now.mp3"))
+-- Load Animator if not already loaded
+if not getgenv()["Animator"] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    end
+
+local Anim = nil
+local sound = nil
+
+tool.Equipped:Connect(function()
+    local character = player.Character
+    if character then
+        Anim = Animator.new(character, 16240038168)
+        Anim:Play()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
+        end)
+        sound = Instance.new("Sound")
+        sound.SoundId = getcustomasset("Who can it be now.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
