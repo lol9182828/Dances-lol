@@ -1827,3 +1827,147 @@ tool.Unequipped:Connect(function()
     end
     print("Hello World")
 end)
+
+-- *Konton Boogie*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
+local tool = Instance.new("Tool")
+tool.Name = "Konton Boogie"
+tool.RequiresHandle = false
+tool.Parent = backpack
+
+        writefile("Konton Boogie.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Konton%20Boogie.mp3"))
+-- Load Animator if not already loaded
+if not getgenv()["Animator"] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    end
+
+local Anim = nil
+local sound = nil
+
+tool.Equipped:Connect(function()
+    local character = player.Character
+    if character then
+        Anim = Animator.new(character, 124417797980484)
+        Anim:Play()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
+        end)
+        sound = Instance.new("Sound")
+        sound.SoundId = getcustomasset("Konton Boogie.mp3")
+        sound.Volume = 2
+        sound.Looped = true
+        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        sound:Play()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
+end)
+
+-- *Internet Yamero*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
+local tool = Instance.new("Tool")
+tool.Name = "Internet Yamero"
+tool.RequiresHandle = false
+tool.Parent = backpack
+
+        writefile("Internet Yamero.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Internet%20Yamero.mp3"))
+-- Load Animator if not already loaded
+if not getgenv()["Animator"] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    end
+
+local Anim = nil
+local sound = nil
+
+tool.Equipped:Connect(function()
+    local character = player.Character
+    if character then
+        Anim = Animator.new(character, 104728785248928)
+        Anim:Play()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
+        end)
+        sound = Instance.new("Sound")
+        sound.SoundId = getcustomasset("Internet Yamero.mp3")
+        sound.Volume = 2
+        sound.Looped = true
+        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        sound:Play()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
+end)
+
+-- *Static*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
+local tool = Instance.new("Tool")
+tool.Name = "Static"
+tool.RequiresHandle = false
+tool.Parent = backpack
+
+        writefile("Static.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/Static.mp3"))
+-- Load Animator if not already loaded
+if not getgenv()["Animator"] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    end
+
+local Anim = nil
+local sound = nil
+
+tool.Equipped:Connect(function()
+    local character = player.Character
+    if character then
+        Anim = Animator.new(character, 128829212523368)
+        Anim:Play()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
+        end)
+        sound = Instance.new("Sound")
+        sound.SoundId = getcustomasset("Static.mp3")
+        sound.Volume = 2
+        sound.Looped = true
+        sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+        sound:Play()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
+end)
