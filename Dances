@@ -1809,7 +1809,7 @@ tool.Equipped:Connect(function()
         end)
         sound = Instance.new("Sound")
         sound.SoundId = getcustomasset("gome amanai.mp3")
-        sound.Volume = 2
+        sound.Volume = 10
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
         sound:Play()
