@@ -44,6 +44,7 @@ tool.Unequipped:Connect(function()
         sound:Destroy()
     end
     print("Hello World")
+end)
 
 -- *Mafioso*
 local player = game.Players.LocalPlayer
@@ -67,8 +68,7 @@ local sound = nil
 tool.Equipped:Connect(function()
     local character = player.Character
     if character then
-        Anim = Animator.new(character, 82332717577814 
-)
+        Anim = Animator.new(character, 82332717577814)
         Anim:Play()
         Anim.Stopped:Connect(function()
             Anim:Play()
