@@ -164,7 +164,7 @@ local sound = nil
 tool.Equipped:Connect(function()
     local character = player.Character
     if character then
-        Anim = Animator.new(character, 115044636142361)
+        Anim = Animator.new(character, 70541113956770)
         Anim:Play()
         Anim.Stopped:Connect(function()
             Anim:Play()
@@ -212,7 +212,7 @@ local sound = nil
 tool.Equipped:Connect(function()
     local character = player.Character
     if character then
-        Anim = Animator.new(character, 111823313038878)
+        Anim = Animator.new(character, 115044636142361)
         Anim:Play()
         Anim.Stopped:Connect(function()
             Anim:Play()
