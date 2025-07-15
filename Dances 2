@@ -362,7 +362,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("Dance.mp3")
+        sound.SoundId = getcustomasset("Dancejj.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -410,7 +410,7 @@ tool.Equipped:Connect(function()
             Anim:Play()
         end)
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("Dance.mp3")
+        sound.SoundId = getcustomasset("Danhce.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
