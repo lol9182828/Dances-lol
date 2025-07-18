@@ -1,0 +1,42 @@
+local Animator = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/MainModule"))()
+local char = game.Players.LocalPlayer.Character
+local hum = char:WaitForChild("Humanoid")
+
+local function loadAnim(model, id)
+    local a = game:GetObjects("rbxassetid://"..id)[1]
+    a.Parent = model
+    return Animator.new(model, a)
+end
+
+local playerAnims = {
+    Idle = loadAnim(char, "131082534135875"),
+    Walk = loadAnim(char, "111539506754179"),
+    Run = loadAnim(char, "81690793745260"),
+}
+
+local function updateAnimations()
+    local moving = hum.MoveDirection.Magnitude > 0
+    local running = hum.WalkSpeed > 16 -- ajusta este valor según sea necesario
+
+    if not moving then
+        if not playerAnims.Idle.IsPlaying then
+            playerAnims.Run:Stop()
+            playerAnims.Walk:Stop()
+            playerAnims.Idle:Play()
+        end
+    elseif running then
+        if not playerAnims.Run.IsPlaying then
+            playerAnims.Idle:Stop()
+            playerAnims.Walk:Stop()
+            playerAnims.Run:Play()
+        end
+    else
+        if not playerAnims.Walk.IsPlaying then
+            playerAnims.Idle:Stop()
+            playerAnims.Run:Stop()
+            playerAnims.Walk:Play()
+        end
+    end
+end
+
+game:GetService("RunService").RenderStepped:Connect(updateAnimations)
