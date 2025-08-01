@@ -151,14 +151,21 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
+    print("Hello World")
 end)
 
+-- *SquidwardYell 2*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "squidward yell 2"
+tool.Name = "SquidwardYell 2"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
-        writefile("yell2.mp3", game:HttpGet("https://github.com/imjustmessingaround418/music-modded/raw/refs/heads/main/Squidward%20Yell%202.mp3"))
+        writefile("Yell2.mp3", game:HttpGet("https://github.com/imjustmessingaround418/music-modded/raw/refs/heads/main/Squidward%20Yell%202.mp3"))
+-- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
     end
@@ -171,11 +178,11 @@ tool.Equipped:Connect(function()
     if character then
         Anim = Animator.new(character, 97551864666610)
         Anim:Play()
-       Anim.Stopped:Connect(function()
-            Anim:Pause()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
         end)
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("yell2.mp3")
+        sound.SoundId = getcustomasset("Yell2.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
@@ -192,14 +199,44 @@ tool.Unequipped:Connect(function()
         sound:Stop()
         sound:Destroy()
     end
+    print("Hello World")
 end)
 
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
+end)
+
+-- *SquidwardYell 3*
+local player = game.Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+-- Create the tool
 local tool = Instance.new("Tool")
-tool.Name = "squidward yell 3"
+tool.Name = "SquidwardYell 3"
 tool.RequiresHandle = false
 tool.Parent = backpack
 
-        writefile("yell3.mp3", game:HttpGet("https://github.com/imjustmessingaround418/music-modded/raw/refs/heads/main/Squidward%20yell%203%20(original%20version)%20reupload.mp3"))
+        writefile("Yell 3.mp3", game:HttpGet("https://github.com/imjustmessingaround418/music-modded/raw/refs/heads/main/Squidward%20yell%203%20(original%20version)%20reupload.mp3"))
+-- Load Animator if not already loaded
 if not getgenv()["Animator"] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
     end
@@ -212,16 +249,28 @@ tool.Equipped:Connect(function()
     if character then
         Anim = Animator.new(character, 120578933910063)
         Anim:Play()
-       Anim.Stopped:Connect(function()
-            Anim:Pause()
+        Anim.Stopped:Connect(function()
+            Anim:Play()
         end)
         sound = Instance.new("Sound")
-        sound.SoundId = getcustomasset("yell3.mp3")
+        sound.SoundId = getcustomasset("Yell 3.mp3")
         sound.Volume = 2
         sound.Looped = true
         sound.Parent = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
         sound:Play()
     end
+end)
+
+tool.Unequipped:Connect(function()
+    if Anim then
+        Anim:Stop()
+        Anim:Destroy()
+    end
+    if sound then
+        sound:Stop()
+        sound:Destroy()
+    end
+    print("Hello World")
 end)
 
 tool.Unequipped:Connect(function()
