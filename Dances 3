@@ -107,7 +107,7 @@ tool.Parent = backpack
         writefile("SquidwardYell.mp3", game:HttpGet("https://github.com/lol9182828/Get-dance-brazilian/raw/refs/heads/main/squidwardyell.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/MainModule"))()
     end
 
 local Anim = nil
@@ -167,7 +167,7 @@ tool.Parent = backpack
         writefile("Yell2.mp3", game:HttpGet("https://github.com/imjustmessingaround418/music-modded/raw/refs/heads/main/Squidward%20Yell%202.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/MainModule"))()
     end
 
 local Anim = nil
@@ -238,7 +238,7 @@ tool.Parent = backpack
         writefile("Yell 3.mp3", game:HttpGet("https://github.com/imjustmessingaround418/music-modded/raw/refs/heads/main/Squidward%20yell%203%20(original%20version)%20reupload.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xhayper/Animator/main/Source/Main.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/MainModule"))()
     end
 
 local Anim = nil
