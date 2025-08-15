@@ -238,7 +238,7 @@ tool.Parent = backpack
         writefile("Yell 3.mp3", game:HttpGet("https://github.com/imjustmessingaround418/music-modded/raw/refs/heads/main/Squidward%20yell%203%20(original%20version)%20reupload.mp3"))
 -- Load Animator if not already loaded
 if not getgenv()["Animator"] then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProudNamed/SuperLightning/refs/heads/main/AnimModule/MainModule"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MelonsStuff/DisbeliefHub/refs/heads/main/Scripts/AnimatorModule.lua"))()
     end
 
 local Anim = nil
